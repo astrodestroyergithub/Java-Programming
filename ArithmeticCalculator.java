@@ -1,4 +1,3 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -195,4 +194,3 @@ class dbmsconnection
         System.out.println("The connection is closed");
     }
 }
-
