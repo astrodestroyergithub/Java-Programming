@@ -1,4 +1,3 @@
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -6,10 +5,10 @@ public class HashMapDemo {
     
     public static void main(String[] args) {
         // First create a hashmap with an initial size of 10 and
-        // the default load factor
+        // The default load factor
         HashMap < Integer, String > employees = new HashMap < Integer, String > (10);
         // Add several employees objects to the map using
-        // their id as the key
+        // Their id as the key
         employees.put(10, "Joe");
         employees.put(49, "Andy");
         employees.put(91, "Greg");
@@ -23,7 +22,7 @@ public class HashMapDemo {
             System.out.println(key + " : " + employees.get(key));
         System.out.println();
         // Ask the user to type a name. If found in the map,
-        // print it out.
+        // Print it out
         Scanner keyboard = new Scanner(System.in);
         int id;
         do {
