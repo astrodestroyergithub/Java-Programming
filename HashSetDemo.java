@@ -1,4 +1,3 @@
-
 package smartresources;
 
 import java.util.HashSet;
