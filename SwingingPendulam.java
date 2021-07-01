@@ -1,5 +1,3 @@
-
-
 import javafx.animation.PathTransition;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -101,4 +99,3 @@ public class SwingingPendulam extends Application {
         }
     }
 }
-
