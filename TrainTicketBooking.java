@@ -1,4 +1,3 @@
-
 import java.sql.*;
 import java.util.Scanner;
 import javafx.application.Application;
@@ -729,4 +728,3 @@ class dbmsconnection
         System.out.println("The connection is closed");
     }
 } 
-
